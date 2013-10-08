@@ -8,9 +8,10 @@
         "html5",
         "canvas",
         "draw",
-        "shape"
+        "shape",
+        "math"
     ],
-    "version": "0.0.3",
+    "version": "0.0.4",
     "author": {
         "name": "kunleywidgets",
         "url": "http://www.kunleywidgets.com"
