@@ -5,9 +5,9 @@
 <html>
 <head>
     <title>Wave Demo</title>
-    <link rel="stylesheet" href="<%= context %>/css/wave-plugin.css"/>
+    <link rel="stylesheet" href="<%= context %>/css/wave.css"/>
     <link rel="stylesheet" title="IDEA" href="<%= context %>/js/highlight/styles/idea.css">
-    <script src="<%= context %>/js/jquery.js"></script>
+    <script src="<%= context %>/js/jquery-1.10.2.min.js"></script>
     <script src="<%= context %>/js/wave.js"></script>
     <script src="<%= context %>/js/highlight/highlight.pack.js"></script>
 <script>

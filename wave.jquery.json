@@ -1,0 +1,37 @@
+{
+    "name": "wave",
+    "title": "jQuery Wave",
+    "description": "jQuery plugin for drawing waves using HTML5 canvas 2d.",
+    "keywords": [
+        "wave",
+        "sine",
+        "html5",
+        "canvas",
+        "draw",
+        "shape"
+    ],
+    "version": "0.0.1",
+    "author": {
+        "name": "kunleywidgets",
+        "url": "http://www.kunleywidgets.com"
+    },
+    "maintainers": [
+        {
+            "name": "James Kunley",
+            "url": "https://github.com/jtkunley"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/jtkunley/wave/blob/master/LICENSE"
+        }
+    ],
+    "bugs": "https://github.com/jtkunley/wave/issues",
+    "homepage": "http://www.kunleywidgets.com/wave",
+    "docs": "https://github.com/jtkunley/wave/wiki",
+    "download": "http://code.jquery.com/#color",
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
+}

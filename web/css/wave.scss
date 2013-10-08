@@ -1,8 +1,6 @@
 @import "compass/reset";
 @import "compass/css3";
 
-@include font-face("Oxygen", font-files("../fonts/oxygen/Oxygen-Regular.ttf"));
-
 html {
     font-family: oxygen, sans-serif;
 }
