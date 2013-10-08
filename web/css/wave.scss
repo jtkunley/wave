@@ -3,6 +3,12 @@
 
 html {
     font-family: oxygen, sans-serif;
+    background: #ccc url("../img/backgrounds/light_wool.png") repeat;
+}
+a {
+    color: #369;
+    text-decoration:none;
+    &:hover { text-decoration: underline; }
 }
 
 .page-viewport {
@@ -16,11 +22,20 @@ html {
     text-align:center;
     margin: 20px 0;
 }
+#download {
+    text-align:right;
+    padding:10px 0;
+    h1 {
+        font-size:16px;
+        font-weight:bold;
+        margin-bottom:5px;
+    }
+    a { margin-left: 20px; }
+}
 #examples {
     h1 {
         font-size:18px;
         font-weight:bold;
-
     }
     .item {
         margin:20px 0;

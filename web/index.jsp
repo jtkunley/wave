@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="<%= context %>/css/wave.css"/>
     <link rel="stylesheet" title="IDEA" href="<%= context %>/js/highlight/styles/idea.css">
     <script src="<%= context %>/js/jquery-1.10.2.min.js"></script>
-    <script src="<%= context %>/js/wave.js"></script>
+    <script src="<%= context %>/js/jquery.wave.min.js"></script>
     <script src="<%= context %>/js/highlight/highlight.pack.js"></script>
 <script>
 hljs.initHighlightingOnLoad();
@@ -60,7 +60,9 @@ $(function() {
 <div id="title">Wave Plugin (jQuery)</div>
 
 <div id="download">
-    <a href="<%= context %>/js/wave.js">Latest version</a>
+    <h1>Download</h1>
+    <a href="<%= context %>/js/jquery.wave.min.js">Compressed</a>
+    <a href="<%= context %>/js/jquery.wave.js">Pretty</a>
 </div>
 
 
