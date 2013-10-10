@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a167ea74-7067-4aa7-82e5-0b40ae9d08e0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery.wave.min.js" afterPath="$PROJECT_DIR$/js/jquery.wave.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo.html" afterPath="$PROJECT_DIR$/demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/wave.css" afterPath="$PROJECT_DIR$/css/wave.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/wave.scss" afterPath="$PROJECT_DIR$/css/wave.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wave.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="a167ea74-7067-4aa7-82e5-0b40ae9d08e0" time="1381446600032" ignored="false" />
-    <file path="$PROJECT_DIR$/../kunley-wave/.idea/workspace.xml" changelist="a167ea74-7067-4aa7-82e5-0b40ae9d08e0" time="1381446664306" ignored="false" />
+    <file path="/Dummy.txt" changelist="a167ea74-7067-4aa7-82e5-0b40ae9d08e0" time="1381446691707" ignored="false" />
+    <file path="$PROJECT_DIR$/../kunley-wave/.idea/workspace.xml" changelist="a167ea74-7067-4aa7-82e5-0b40ae9d08e0" time="1381446977781" ignored="false" />
     <file path="/README.md" changelist="a167ea74-7067-4aa7-82e5-0b40ae9d08e0" time="1381444948856" ignored="false" />
-    <file path="/demo.html" changelist="a167ea74-7067-4aa7-82e5-0b40ae9d08e0" time="1381446502820" ignored="false" />
+    <file path="/demo.html" changelist="a167ea74-7067-4aa7-82e5-0b40ae9d08e0" time="1381446975613" ignored="false" />
+    <file path="/wave.scss" changelist="a167ea74-7067-4aa7-82e5-0b40ae9d08e0" time="1381446925755" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,8 +95,10 @@
       <file leaf-file-name="demo.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="121" column="1" selection-start="2332" selection-end="2332" vertical-scroll-proportion="1.3349359">
-              <folding />
+            <state line="70" column="44" selection-start="1779" selection-end="1779" vertical-scroll-proportion="0.5286416">
+              <folding>
+                <element signature="n#style#0;n#img#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,7 +115,7 @@
       <file leaf-file-name="wave.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/wave.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="16" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0">
+            <state line="30" column="23" selection-start="507" selection-end="507" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -152,13 +157,13 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/css/wave.scss" />
         <option value="$PROJECT_DIR$/js/jquery.wave.js" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/wave.jquery.json" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/demo.html" />
         <option value="$PROJECT_DIR$/js/jquery.wave.min.js" />
+        <option value="$PROJECT_DIR$/css/wave.scss" />
+        <option value="$PROJECT_DIR$/demo.html" />
       </list>
     </option>
   </component>
@@ -431,7 +436,9 @@
     <entry file="file://$PROJECT_DIR$/demo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="7" selection-start="748" selection-end="748" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -466,13 +473,6 @@
     <entry file="file://$PROJECT_DIR$/config.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/wave.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="16" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -512,10 +512,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/wave.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="23" selection-start="507" selection-end="507" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/demo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="1" selection-start="2332" selection-end="2332" vertical-scroll-proportion="1.3349359">
-          <folding />
+        <state line="70" column="44" selection-start="1779" selection-end="1779" vertical-scroll-proportion="0.5286416">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
