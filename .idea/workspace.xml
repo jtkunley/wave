@@ -3,13 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="a167ea74-7067-4aa7-82e5-0b40ae9d08e0" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo.html" afterPath="$PROJECT_DIR$/demo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery.wave.js" afterPath="$PROJECT_DIR$/js/jquery.wave.js" />
     </list>
     <ignored path="wave.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="a167ea74-7067-4aa7-82e5-0b40ae9d08e0" time="1381438245368" ignored="false" />
-    <file path="$PROJECT_DIR$/../kunley-wave/.idea/workspace.xml" changelist="a167ea74-7067-4aa7-82e5-0b40ae9d08e0" time="1381439495403" ignored="false" />
+    <file path="/Dummy.txt" changelist="a167ea74-7067-4aa7-82e5-0b40ae9d08e0" time="1381439574125" ignored="false" />
+    <file path="$PROJECT_DIR$/../kunley-wave/.idea/workspace.xml" changelist="a167ea74-7067-4aa7-82e5-0b40ae9d08e0" time="1381439573571" ignored="false" />
     <file path="/README.md" changelist="a167ea74-7067-4aa7-82e5-0b40ae9d08e0" time="1381437658386" ignored="false" />
     <file path="/demo.html" changelist="a167ea74-7067-4aa7-82e5-0b40ae9d08e0" time="1381439093242" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -421,16 +419,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="file://$PROJECT_DIR$/demo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="28" column="7" selection-start="748" selection-end="748" vertical-scroll-proportion="-18.307692">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo.html">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="7" selection-start="748" selection-end="748" vertical-scroll-proportion="-18.307692">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
