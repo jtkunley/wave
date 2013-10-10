@@ -4,8 +4,9 @@
 html {
     font-family: oxygen, sans-serif;
     font-weight: 300;
-    background: #ccc url("../img/backgrounds/light_wool.png") repeat;
+    @include background(image-url("light_wool.png"));
 }
+
 a {
     color: #369;
     text-decoration:none;

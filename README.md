@@ -1,1 +1,1 @@
-wave (jQuery plugin)
+Wave (jQuery plugin)

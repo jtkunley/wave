@@ -1,7 +1,7 @@
 $.fn.wave = function(options) {
-    var WAVELENGTH_MAGNIFY = 5;
+    //var WAVELENGTH_MAGNIFY = 5;
     var wave = $.extend({
-        wavelength: 20,
+        wavelength: 100,
         amplitude: 60,
         phase: 0,
         width: 600,
@@ -67,7 +67,7 @@ $.fn.wave = function(options) {
 
 	var phase = wave.phase * Math.PI / 180;
 	var amp = wave.amplitude - wave.thickness / 2;
-	var freq = 2 * Math.PI * (1 / (wave.wavelength * WAVELENGTH_MAGNIFY));
+	var freq = 2 * Math.PI * (1 / wave.wavelength);
 	var yOrigin = height / 2;
 
 	var y1, y2;

@@ -1,15 +1,12 @@
-<%
-    String context = request.getContextPath();
-%>
 <!DOCTYPE html>
 <html>
 <head>
     <title>Wave Demo</title>
-    <link rel="stylesheet" href="<%= context %>/css/wave.css"/>
-    <link rel="stylesheet" title="IDEA" href="<%= context %>/js/highlight/styles/idea.css">
-    <script src="<%= context %>/js/jquery-1.10.2.min.js"></script>
-    <script src="<%= context %>/js/jquery.wave.js"></script>
-    <script src="<%= context %>/js/highlight/highlight.pack.js"></script>
+    <link rel="stylesheet" href="css/wave.css"/>
+    <link rel="stylesheet" title="IDEA" href="js/highlight/styles/idea.css">
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/jquery.wave.js"></script>
+    <script src="js/highlight/highlight.pack.js"></script>
 <script>
 hljs.initHighlightingOnLoad();
 $(function() {
@@ -40,11 +37,12 @@ $(function() {
     $("#wave5").wave({
         width: 800,
         amplitude: 40,
-        wavelength: 10,
+        wavelength: 25,
         phase: -90,
         color: "DodgerBlue",
         bgColor: "#111",
-        paddingV: 0,
+        thickness: 1,
+        paddingV: 20,
         paddingH: 0,
         grid: true,
         gridThickness: .3
@@ -55,19 +53,15 @@ $(function() {
 </head>
 <body>
 
-<%@ include file="pages/common/header.jsp" %>
-
 <div class="page-viewport">
 
 <div id="title">Wave Plugin (jQuery)</div>
 
 <div id="download">
     <h1>Download</h1>
-    <a href="<%= context %>/js/jquery.wave.min.js">Compressed</a>
-    <a href="<%= context %>/js/jquery.wave.js">Pretty</a>
+    <a href="js/jquery.wave.min.js">Compressed</a>
+    <a href="js/jquery.wave.js">Pretty</a>
 </div>
-
-
 
 <div id="examples">
 
@@ -128,23 +122,23 @@ $("#wave4").wave({
 $("#wave5").wave({
     width: 800,
     amplitude: 40,
-    wavelength: 10,
+    wavelength: 25,
     phase: -90,
     color: "DodgerBlue",
     bgColor: "#111",
-    paddingV: 0,
+    thickness: 1,
+    paddingV: 20,
     paddingH: 0,
     grid: true,
     gridThickness: .3
-});</code></pre>
+});
+</code></pre>
 <div id="wave5"></div>
 </div>
 
 </div>
 
 </div>
-
-<jsp:include page="pages/common/footer.jsp"/>
 
 </body>
 </html>
