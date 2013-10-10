@@ -1,13 +1,17 @@
 Wave (jQuery plugin)
 
-Demo:
+Demo
+
 http://www.kunleywidgets.com/wave
 
-Docs:
+Docs
+
 https://github.com/jtkunley/wave/wiki
 
 jQuery Plugin Registry
+
 http://plugins.jquery.com/wave/
+
 
 Directories:
 - css   CSS file directory
@@ -16,6 +20,7 @@ Directories:
 - js    Javascript files
     - jquery.wave.js (pretty)
     - jquery.wave.min.js (compessed)
+
 
 Files:
 - config.rb         Compass configuration file
