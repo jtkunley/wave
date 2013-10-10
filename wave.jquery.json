@@ -31,7 +31,7 @@
     "bugs": "https://github.com/jtkunley/wave/issues",
     "homepage": "http://www.kunleywidgets.com/wave",
     "docs": "https://github.com/jtkunley/wave/wiki",
-    "download": "http://code.jquery.com/#color",
+    "download": "https://github.com/jtkunley/wave/archive/master.zip",
     "dependencies": {
         "jquery": ">=1.5"
     }
