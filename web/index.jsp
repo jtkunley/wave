@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="<%= context %>/css/wave.css"/>
     <link rel="stylesheet" title="IDEA" href="<%= context %>/js/highlight/styles/idea.css">
     <script src="<%= context %>/js/jquery-1.10.2.min.js"></script>
-    <script src="<%= context %>/js/jquery.wave.min.js"></script>
+    <script src="<%= context %>/js/jquery.wave.js"></script>
     <script src="<%= context %>/js/highlight/highlight.pack.js"></script>
 <script>
 hljs.initHighlightingOnLoad();
@@ -44,6 +44,8 @@ $(function() {
         phase: -90,
         color: "DodgerBlue",
         bgColor: "#111",
+        paddingV: 0,
+        paddingH: 0,
         grid: true,
         gridThickness: .3
     });
@@ -130,10 +132,11 @@ $("#wave5").wave({
     phase: -90,
     color: "DodgerBlue",
     bgColor: "#111",
+    paddingV: 0,
+    paddingH: 0,
     grid: true,
     gridThickness: .3
-});
-</code></pre>
+});</code></pre>
 <div id="wave5"></div>
 </div>
 

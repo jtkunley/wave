@@ -2,34 +2,37 @@ $.fn.wave = function(options) {
     var WAVELENGTH_MAGNIFY = 5;
     var wave = $.extend({
         wavelength: 20,
-        amplitude: 80,
+        amplitude: 60,
         phase: 0,
         width: 600,
         color: "DodgerBlue",
-        bgColor: "white",
+        bgColor: "",
         thickness: 3,
+        paddingH: 0,
+        paddingV: 20,
         grid: false,
         gridSize: 20,
         gridThickness: 1,
         gridColor: "lightBlue"
     }, options );
-    var height = wave.amplitude * 2;
+    var width = wave.width + wave.paddingH * 2;
+    var height = wave.amplitude * 2 + wave.paddingV * 2;
 
     this.css({
-        "width": wave.width,
+        "width": width,
         "height": height,
         "display": "inline-block"
     });
 
     //create canvas
     var canvas = document.createElement("canvas");
-    canvas.width = wave.width;
+    canvas.width = width;
     canvas.height = height;
     document.getElementById(this.attr("id")).appendChild(canvas);
 
     //create buffer
     var buffer = document.createElement("canvas");
-    buffer.width = wave.width;
+    buffer.width = width;
     buffer.height = height;
 
     //get context
@@ -37,8 +40,10 @@ $.fn.wave = function(options) {
 	ctx.clearRect(0, 0, buffer.width, buffer.height);
 
     //draw background
-    ctx.fillStyle = wave.bgColor;
-    ctx.fillRect(0, 0, buffer.width, buffer.height);
+    if(wave.bgColor != "") {
+        ctx.fillStyle = wave.bgColor;
+        ctx.fillRect(0, 0, buffer.width, buffer.height);
+    }
     if(wave.grid) {
         ctx.strokeStyle = wave.gridColor;
         ctx.lineWidth = wave.gridThickness;
@@ -47,9 +52,9 @@ $.fn.wave = function(options) {
         ctx.beginPath();
         for ( var i = 1; i < height / increment; i++) {
             ctx.moveTo(0, i * increment);
-            ctx.lineTo(wave.width, i * increment);
+            ctx.lineTo(width, i * increment);
         }
-        for ( var j = 1; j < wave.width / increment; j++) {
+        for ( var j = 1; j < width / increment; j++) {
             ctx.moveTo(j * increment, 0);
             ctx.lineTo(j * increment, height);
         }
@@ -61,7 +66,7 @@ $.fn.wave = function(options) {
 	ctx.lineWidth = wave.thickness;
 
 	var phase = wave.phase * Math.PI / 180;
-	var amp = (height * wave.amplitude) / (2 * 100) - 2;
+	var amp = wave.amplitude - wave.thickness / 2;
 	var freq = 2 * Math.PI * (1 / (wave.wavelength * WAVELENGTH_MAGNIFY));
 	var yOrigin = height / 2;
 
@@ -70,8 +75,8 @@ $.fn.wave = function(options) {
 	for ( var i = 0; i < wave.width; i++) {
 		y1 = amp * Math.sin(phase + freq * i) + yOrigin;
 		y2 = amp * Math.sin(phase + freq * (i + 1)) + yOrigin;
-		ctx.moveTo(i, y1); console.log(i + " " + y1);
-		ctx.lineTo(i + 1, y2);
+		ctx.moveTo(i + wave.paddingH, y1);
+		ctx.lineTo(i + wave.paddingH + 1, y2);
 	}
 	ctx.stroke();
 

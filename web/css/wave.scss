@@ -42,7 +42,7 @@ a {
         margin:20px 0;
         padding: 20px;
         //border:1px solid lightBlue;
-        background:white;
+        background:whitesmoke;
         @include border-radius(10px);
         @include box-shadow(0 0 10px #ccc);
         pre {
@@ -51,6 +51,7 @@ a {
         code {
             font-family:courier new;
             line-height:1.2em;
+            background:whitesmoke;
         }
     }
 }
