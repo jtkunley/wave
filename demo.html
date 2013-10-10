@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Wave Demo</title>
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
     <link rel="stylesheet" href="css/wave.css"/>
     <link rel="stylesheet" title="IDEA" href="js/highlight/styles/idea.css">
     <script src="js/jquery-1.10.2.min.js"></script>
@@ -13,12 +14,14 @@ $(function() {
     $("#wave1").wave();
     $("#wave2").wave({
         width: 800,
+        amplitude: 40,
+        color: "red",
         phase: -90,
         grid: true
     });
     $("#wave3").wave({
         width: 800,
-        wavelegnth: 150,
+        wavelength: 150,
         amplitude: 20,
         phase: -90,
         color: "yellow",
@@ -40,14 +43,14 @@ $(function() {
     });
     $("#wave5").wave({
         width: 800,
-        amplitude: 40,
+        amplitude: 10,
         wavelength: 25,
         phase: -90,
         color: "DodgerBlue",
         bgColor: "#111",
-        thickness: 1,
+        thickness: 2,
         paddingV: 20,
-        paddingH: 0,
+        paddingH: 20,
         grid: true,
         gridThickness: .3
     });
@@ -83,6 +86,8 @@ $("#wave1").wave();
 <pre><code>
 $("#wave2").wave({
     width: 800,
+    amplitude: 40,
+    color: "red",
     phase: -90,
     grid: true
 });
@@ -95,7 +100,7 @@ $("#wave2").wave({
 <pre><code>
 $("#wave3").wave({
     width: 800,
-    wavelegnth: 150,
+    wavelength: 150,
     amplitude: 20,
     phase: -90,
     color: "yellow",
@@ -129,14 +134,14 @@ $("#wave4").wave({
 <pre><code>
 $("#wave5").wave({
     width: 800,
-    amplitude: 40,
+    amplitude: 10,
     wavelength: 25,
     phase: -90,
     color: "DodgerBlue",
     bgColor: "#111",
-    thickness: 1,
+    thickness: 2,
     paddingV: 20,
-    paddingH: 0,
+    paddingH: 20,
     grid: true,
     gridThickness: .3
 });
