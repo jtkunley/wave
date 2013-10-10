@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a167ea74-7067-4aa7-82e5-0b40ae9d08e0" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wave.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="a167ea74-7067-4aa7-82e5-0b40ae9d08e0" time="1381444974062" ignored="false" />
-    <file path="$PROJECT_DIR$/../kunley-wave/.idea/workspace.xml" changelist="a167ea74-7067-4aa7-82e5-0b40ae9d08e0" time="1381445039712" ignored="false" />
+    <file path="/Dummy.txt" changelist="a167ea74-7067-4aa7-82e5-0b40ae9d08e0" time="1381445143639" ignored="false" />
+    <file path="$PROJECT_DIR$/../kunley-wave/.idea/workspace.xml" changelist="a167ea74-7067-4aa7-82e5-0b40ae9d08e0" time="1381445868590" ignored="false" />
     <file path="/README.md" changelist="a167ea74-7067-4aa7-82e5-0b40ae9d08e0" time="1381444948856" ignored="false" />
     <file path="/demo.html" changelist="a167ea74-7067-4aa7-82e5-0b40ae9d08e0" time="1381439093242" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -73,7 +74,7 @@
       <file leaf-file-name="wave.jquery.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wave.jquery.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="23" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0">
+            <state line="12" column="6" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -91,7 +92,7 @@
       <file leaf-file-name="demo.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="119" column="17" selection-start="2261" selection-end="2261" vertical-scroll-proportion="-17.923077">
+            <state line="52" column="7" selection-start="1270" selection-end="1270" vertical-scroll-proportion="-10.615385">
               <folding />
             </state>
           </provider>
@@ -100,7 +101,7 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="31" selection-start="162" selection-end="162" vertical-scroll-proportion="0.23216996">
+            <state line="56" column="15" selection-start="968" selection-end="968" vertical-scroll-proportion="1.4446131">
               <folding />
             </state>
           </provider>
@@ -516,21 +517,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wave.jquery.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="23" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0">
+        <state line="12" column="6" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="17" selection-start="2261" selection-end="2261" vertical-scroll-proportion="-17.923077">
+        <state line="52" column="7" selection-start="1270" selection-end="1270" vertical-scroll-proportion="-10.615385">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="31" selection-start="162" selection-end="162" vertical-scroll-proportion="0.23216996">
+        <state line="56" column="15" selection-start="968" selection-end="968" vertical-scroll-proportion="1.4446131">
           <folding />
         </state>
       </provider>
