@@ -9,7 +9,7 @@ $.fn.wave = function(options) {
         bgColor: "",
         thickness: 3,
         paddingH: 0,
-        paddingV: 20,
+        paddingV: 0,
         grid: false,
         gridSize: 20,
         gridThickness: 1,

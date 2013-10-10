@@ -18,21 +18,25 @@ $(function() {
     });
     $("#wave3").wave({
         width: 800,
+        wavelegnth: 150,
+        amplitude: 20,
         phase: -90,
         color: "yellow",
         bgColor: "brown",
+        thickness: 2,
         grid: true,
         gridThickness: .3
     });
     $("#wave4").wave({
         width: 800,
         amplitude: 100,
-        wavelength: 80,
+        wavelength: 200,
         phase: -90,
         color: "yellow",
         bgColor: "brown",
+        thickness: 5,
         grid: true,
-        gridThickness: .3
+        gridThickness: .5
     });
     $("#wave5").wave({
         width: 800,
@@ -91,9 +95,12 @@ $("#wave2").wave({
 <pre><code>
 $("#wave3").wave({
     width: 800,
+    wavelegnth: 150,
+    amplitude: 20,
     phase: -90,
     color: "yellow",
     bgColor: "brown",
+    thickness: 2,
     grid: true,
     gridThickness: .3
 });
